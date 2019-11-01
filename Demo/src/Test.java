@@ -5,7 +5,6 @@ public class Test {
 		// TODO Auto-generated method stub
 
 		System.out.println("This is my init commit!");
-		System.out.println("This is my 6 commit!");
 	}
 
 }
