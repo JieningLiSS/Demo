@@ -1,11 +1,12 @@
 
-public class Test {
+public abstract class Test{
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+    public String nonAbstractMethodOne(String param1,String param2){
+        String param = param1 + param2;
+        return param;
+    }
 
-		System.out.println("This is my init commit!");
-		System.out.println("This is my 7 commit!");
-	}
-
+    public static void nonAbstractMethodTwo(String param){
+        System.out.println("Value of param is "+param);
+    }
 }
